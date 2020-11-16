@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {importAll , RunPlugins } from '../components'
+import {importAll , RunPlugins } from '../pages'
 
 export class ProductDetail extends Component {
     constructor() { 

@@ -1,17 +1,18 @@
 import React from 'react';
-import Home from './components/Home';
-import Products from './components/Products';
-import ProductDetail from './components/ProductDetail';
-import ShopingCart from './components/ShopingCart';
-import Contact from './components/Contact';
-import About from './components/About';
+import Home from './pages/Home';
+import Products from './pages/Products';
+import ProductDetail from './pages/ProductDetail';
+import ShopingCart from './pages/ShopingCart';
+import Contact from './pages/Contact';
+import About from './pages/About';
 
 
 function App() {
   return (
-  <div>
-{/* <Contact/> */}
-<About/>
+   <div>
+    <Home/>
+  {/* <Contact/> */}
+  {/* <About/> */}
     {/* <ShopingCart></ShopingCart> */}
     {/* <ProductDetail></ProductDetail> */}
     {/* <Products></Products> */}

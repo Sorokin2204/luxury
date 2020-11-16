@@ -8,7 +8,7 @@ import sweetalert from '../vendor/sweetalert/sweetalert.min.js';
 import PerfectScrollbar from '../vendor/perfect-scrollbar/perfect-scrollbar.min.js';
 import slick from '../vendor/slick/slick.min.js';
 import slickCustom from './slick-custom.js';
-import animsition from '../vendor/animsition/js/animsition.js';
+import animsition from 'animsition';
 
 
 export const RunPlugins = () => { 
